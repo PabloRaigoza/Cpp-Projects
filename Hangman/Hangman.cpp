@@ -1,3 +1,7 @@
+/*
+This program is a command line approach to a the classic game of hangman. Here you can guess letters to form randomly generated words.
+NOTE: The part that opens a file and dumps its contents into an array is someone else's code and I DID NOT MAKE IT.
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
