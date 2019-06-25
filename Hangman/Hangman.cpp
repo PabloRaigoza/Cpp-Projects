@@ -1,6 +1,8 @@
 /*
 This program is a command line approach to a the classic game of hangman. Here you can guess letters to form randomly generated words.
-NOTE: The part that opens a file and dumps its contents into an array is someone else's code and I DID NOT MAKE IT.
+NOTE: The part that opens a file and dumps its contents into an array is someone else's code and I DID NOT MAKE IT, and I DO NOT CLAIM IT as my own.
+ALSO: I used a word.txt file filled with 10,000 words. This file I found on GitHub and also DID NOT MAKE, and I AM NOT CLAIMING IT.
+I will provide the word.txt file that I used on GitHub along with this code.
 */
 #include <iostream>
 #include <fstream>
