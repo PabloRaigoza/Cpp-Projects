@@ -1,3 +1,8 @@
+/*
+This program simulates a forest fire. One X will spawn randomly in the forest.
+This fire will then spread onto the surrounding trees and the program will
+stop when all of the trees are covered in fire.
+*/
 #include <iostream>//Standart library
 #include <cstdlib>//Used for random fire spawner
 #include <ctime>
