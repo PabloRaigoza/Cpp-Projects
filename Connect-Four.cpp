@@ -1,3 +1,10 @@
+/*
+This program applies a simple take to the classic game of Connect-Four.
+This program creates a board (same size as orginal board) and a number under each column.
+User selects which column they would like to place, either their X or their O, and a little
+animation plays as the peice drops to the bottom most tile possible.
+This is all displayed through a terminal console window.
+*/
 #include <iostream>
 #include <unistd.h>
 using namespace std;
