@@ -1,3 +1,7 @@
+/*
+This program provides a simple way to track how a sorter works. Here I use functions and an array to display
+my sorter onto a simple terminal console.
+*/
 #include <iostream>
 #include <string>
 #include <cstdlib>
