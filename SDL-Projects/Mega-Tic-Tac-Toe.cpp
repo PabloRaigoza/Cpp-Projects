@@ -15,6 +15,9 @@ Rules are simple and are easier to describe when playing. TWO PLAYER GAME
 6. The objective is to capture three quadrants in a row like a regualer game of Tic-Tac-Toe
 7. If player's position matches a quadrant that has already been conquered (by either player).
 	Then the next player can move in whatever quadrant they like, so long as it hasn't been conquered.
+If you are still confuse as how to play, I have found a YouTube video on this game.
+There rules are mostly similar to this game
+https://youtu.be/37PC0bGMiTI
 */
 #include <iostream>
 #include <SDL2/SDL.h>
