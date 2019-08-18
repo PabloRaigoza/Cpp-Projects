@@ -1,3 +1,21 @@
+/*
+This is a Mega-Tic-Tac-Toe game made with SDL (Simple Directmedia Layer). This game is composed of a large
+Tic-Tac-Toe game with regular Tic-Tac-Toe games in it's quadrants.
+The background will flash the color of the next player's turn, and turn dark grey if there has been a winner.
+Updates on who won and as well as who who a specific square, will be displayed in the terminal.
+
+**RULES**
+Rules are simple and are easier to describe when playing. TWO PLAYER GAME
+1. Player 1 is decided at the start, RED or BLUE
+2. The player going first can go anywhere they want on their first move.
+3. After the Player 1 has gone, the position in the small sqaure determines which quadrant the next player has to go.
+	The game will highlight the quadrant were the next player has to move in.
+4. The position the player chose determines the next quadrant and ect.
+5. Once a quadrant has been conquered, it will turn the color of the player who won it.
+6. The objective is to capture three quadrants in a row like a regualer game of Tic-Tac-Toe
+7. If player's position matches a quadrant that has already been conquered (by either player).
+	Then the next player can move in whatever quadrant they like, so long as it hasn't been conquered.
+*/
 #include <iostream>
 #include <SDL2/SDL.h>
 #define fps 120
