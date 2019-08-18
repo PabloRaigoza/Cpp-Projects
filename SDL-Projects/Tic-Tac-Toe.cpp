@@ -1,3 +1,9 @@
+/*
+This file runs using SDL (Simple Directmedia Layer).
+This is a simple Tic-Tac-Toe game using mouse click events.
+The background will flash the color of the next person's turn and turn dark grey when there has been a winner.
+Updates on whether there has been a winner is displayed in the terminal.
+*/
 #include <iostream>
 #include <SDL2/SDL.h>
 #define fps 120
@@ -10,7 +16,7 @@ const int SIDE = (SQR*3) + BUFF*2;//side of the screen
 SDL_Window *myWindow = NULL;//winoow and renderer
 SDL_Renderer *myRenderer = NULL;
 
-SDL_Rect quads[ 9 ];//position of 
+SDL_Rect quads[ 9 ];//position of our squares
 
 bool pressedTiles[ 9 ] = {false,false,false,false,false,false,false,false,false};
 int playerPressed[ 9 ] = {2,2,2,2,2,2,2,2,2};
