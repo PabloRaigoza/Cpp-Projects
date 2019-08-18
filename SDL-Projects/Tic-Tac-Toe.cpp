@@ -243,7 +243,6 @@ void capFrames( Uint32 start_tick)
 
 int main( int argc, char *args[] )
 {
-	system("clear");
 	init();
 	loadMedia();
 	SDL_Event e;
