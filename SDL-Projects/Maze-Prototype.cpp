@@ -1,3 +1,16 @@
+/*
+This is Maze I made, inspired my a real life game called Micro-Mouse. You start by making some sort of maze.
+Then you press 'Enter' after you are satisfied with your maze.
+You can adjust the game dimensions in terms of how many rows and columns of baxes there are, 
+the thickness  of the borders, the size of the boxes themselves and maybe even the color of the little, 'mouse' that
+you get to control, if you can find it.
+
+This is a prototype because I know there are some bugs, and it isn't the cleanest presentation ever.
+
+I plan to eventually make it so you edit all the colors, thickness of borders, etc. Also I plan so can load in
+mazes to work on and also I plan to implement a genetic algorythmn or some sort of AI
+you tackle mazes I make. Have fun!
+*/
 #include <iostream>
 #include <SDL2/SDL.h>
 using namespace std;
